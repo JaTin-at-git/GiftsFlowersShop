@@ -102,7 +102,7 @@ export default function ProductEditScreen() {
       dispatch({
         type: 'UPDATE_SUCCESS',
       });
-      toast.success('Product updated successfully');
+      toast.success('Item updated successfully');
       navigate('/admin/products');
     } catch (err) {
       toast.error(getError(err));
@@ -112,9 +112,9 @@ export default function ProductEditScreen() {
   return (
     <Container className="small-container w-100 h-auto">
       <Helmet>
-        <title>Edit Product ${productId}</title>
+        <title>Edit Item ${productId}</title>
       </Helmet>
-      <h1>Edit Product {productId}</h1>
+      <h1>Edit Item {productId}</h1>
 
       {loading ? (
         <LoadingBox></LoadingBox>
@@ -155,7 +155,7 @@ export default function ProductEditScreen() {
             />
           </Form.Group>
           <Form.Group className="mb-3" controlId="additionalImageFile">
-            <Form.Label>Upload Aditional Image</Form.Label>
+            <Form.Label>Upload Additional Image</Form.Label>
             <Form.Control
               value={images}
               onChange={(e) => setImages(e.target.value)}
@@ -171,7 +171,7 @@ export default function ProductEditScreen() {
             />
           </Form.Group>
           <Form.Group className="mb-3" controlId="brand">
-            <Form.Label>Brand</Form.Label>
+            <Form.Label>Collection</Form.Label>
             <Form.Control
               value={brand}
               onChange={(e) => setBrand(e.target.value)}

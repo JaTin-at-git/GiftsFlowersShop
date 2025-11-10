@@ -22,7 +22,7 @@ export default function SearchBox() {
           id="q"
           className='px-md-4 px-3'
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search Products..."
+          placeholder="Search Gifts & Flowers..."
           aria-label="Search Products"
           aria-describedby="button-search"
         ></FormControl>

@@ -132,7 +132,7 @@ export default function SearchScreen() {
   return (
     <div className='mx-3'>
       <Helmet>
-        <title>Search Products</title>
+        <title>Search Gifts & Flowers</title>
       </Helmet>
       <Row>
         <Col md={3}>
@@ -250,7 +250,7 @@ export default function SearchScreen() {
                 </Col>
               </Row>
               {products.length === 0 && (
-                <MessageBox>No Product Found</MessageBox>
+                <MessageBox>No Items Found</MessageBox>
               )}
 
               <Row>

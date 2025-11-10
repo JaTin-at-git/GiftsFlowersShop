@@ -1,4 +1,8 @@
-Demo: https://cupsandcakes.onrender.com/
+# Gifts & Flowers Shop
+
+A beautiful ecommerce platform for gifts and flowers.
+
+Demo: https://giftsandflowers.onrender.com/
 
 
 How to run:

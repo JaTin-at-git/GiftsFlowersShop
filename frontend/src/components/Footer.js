@@ -12,33 +12,33 @@ const Footer = () => {
                         <div className="row">
                             <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                                 <h6 className="text-uppercase mb-4 font-weight-bold">
-                                    Cups And Cakes
+                                    Gifts & Flowers Shop
                                 </h6>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                                    elit.
+                                    Your trusted destination for beautiful gifts and fresh flowers for every occasion.
                                 </p>
                             </div>
                             <hr className="w-100 clearfix d-md-none" />
                             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                                <h6 className="text-uppercase mb-4 font-weight-bold">Products</h6>
-                                <Link to='/search?category=Cake&query=all&price=all&rating=all&order=newest&page=1'>
+                                <h6 className="text-uppercase mb-4 font-weight-bold">Categories</h6>
+                                <Link to='/search?category=Flowers&query=all&price=all&rating=all&order=newest&page=1'>
                                 <p>
-                                    Cakes
+                                    Fresh Flowers
                                 </p>
                                 </Link>
-                                <Link to='/search?category=csake&query=all&price=all&rating=all&order=newest&page=1'>
+                                <Link to='/search?category=Bouquets&query=all&price=all&rating=all&order=newest&page=1'>
                                 <p>
-                                    Cupcakes
+                                    Bouquets
                                 </p>
                                 </Link>
-                                <Link to='/search?category=Cake&query=all&price=all&rating=all&order=newest&page=1'>
+                                <Link to='/search?category=Gifts&query=all&price=all&rating=all&order=newest&page=1'>
                                 <p>
-                                    Drinks
+                                    Gift Sets
                                 </p>
-                                <Link to='/search?category=house&query=all&price=all&rating=all&order=newest&page=1'></Link>
+                                </Link>
+                                <Link to='/search?category=Plants&query=all&price=all&rating=all&order=newest&page=1'>
                                 <p>
-                                    GingerBread
+                                    Indoor Plants
                                 </p>
                                 </Link>
                             </div>
@@ -73,7 +73,7 @@ const Footer = () => {
                             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                                 <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
                                 <p><i className="fas fa-home mr-3"></i> Kanpur, UP</p>
-                                <p><i className="fas fa-envelope mr-3"></i> cnc@gmail.com</p>
+                                <p><i className="fas fa-envelope mr-3"></i> info@giftsandflowers.com</p>
                                 <p><i className="fas fa-phone mr-3"></i> 12345 67890</p>
                                 <p><i className="fas fa-print mr-3"></i> 12345 67899</p>
                             </div>
@@ -85,9 +85,9 @@ const Footer = () => {
                             <div className="row d-flex align-items-center">
 
                                     <div className="p-3 text-center">
-                                        © 2024 Cups And Cakes:
-                                        cupsandcakes.com
-         
+                                        © 2024 Gifts & Flowers Shop:
+                                        giftsandflowers.com
+
                                 </div>
                             </div>
                         </section>

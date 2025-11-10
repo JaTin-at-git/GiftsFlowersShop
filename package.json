@@ -1,8 +1,8 @@
 {
-  "name": "backend",
+  "name": "gifts-flowers-shop",
   "type": "module",
   "version": "1.0.0",
-  "description": "",
+  "description": "Ecommerce platform for gifts and flowers",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon backend/server.js",

@@ -7,40 +7,40 @@ function HomeScreen() {
   return (
     <>
       <Helmet>
-        <title>Cups & Cakes</title>
+        <title>Gifts & Flowers Shop</title>
       </Helmet>
       <div className="vw-100 position-absolute top-0 start-0">
         <div className="position-absolute w-100 carousel-gradient bottom-0" />
         <Carousel className='carousel'>
 
           <Carousel.Item interval={5500}>
-            <Link to='/search?category=Cakes&query=all&price=all&rating=all&order=newest&page=1'>
+            <Link to='/search?category=Flowers&query=all&price=all&rating=all&order=newest&page=1'>
               <img
                 className="d-block w-100 text-black"
                 src="/images/car11.jpg"
                 alt="Img"
               />
             </Link>
-            <Link to='/search?category=Cakes&query=all&price=all&rating=all&order=newest&page=1'>
+            <Link to='/search?category=Flowers&query=all&price=all&rating=all&order=newest&page=1'>
             <Carousel.Caption>
-              <h3>New Rainbow Treats, Explore now</h3>
-              <p>Our Very new collection of Cup Cakes</p>
+              <h3>New Flower Bouquets Collection, Explore now</h3>
+              <p>Our beautiful new collection of Fresh Flower Arrangements</p>
             </Carousel.Caption>
           </Link>
         </Carousel.Item>
 
 
         <Carousel.Item interval={5500}>
-          <Link to='/product/black-tea'>
+          <Link to='/product/rose-bouquet'>
             <img
               className="d-block w-100"
               src="/images/car3.jpg"
               alt="Img"
             />
           </Link>
-          <Link to='/product/black-tea'>
+          <Link to='/product/rose-bouquet'>
             <Carousel.Caption>
-              <h3>Flat 20% off on Premium Tea... order now.</h3>
+              <h3>Flat 20% off on Premium Gift Sets... order now.</h3>
               <p>Terms and conditions apply.</p>
             </Carousel.Caption>
           </Link>
@@ -48,17 +48,17 @@ function HomeScreen() {
 
 
         <Carousel.Item interval={5500}>
-          <Link to='/product/birthday-cake'>
+          <Link to='/product/birthday-gift-set'>
             <img
               className="d-block w-100"
               src="/images/car2.jpg"
               alt="Img"
             />
           </Link>
-          <Link to='/product/birthday-cake'>
+          <Link to='/product/birthday-gift-set'>
             <Carousel.Caption>
               <h3>Happy Birthday to You.. </h3>
-              <p>50% off on all the Birthday Cakes..</p>
+              <p>50% off on all Birthday Flower Arrangements & Gifts..</p>
             </Carousel.Caption>
           </Link>
         </Carousel.Item>
