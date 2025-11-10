@@ -1,0 +1,437 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', -apple-system, 'Roboto', sans-serif;
+  font-weight: 400;
+  background-color: #ffe4f2;
+
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: white;
+}
+
+* div {
+  border-radius: 20px;
+}
+
+* a {
+  text-decoration: none;
+  color: rgb(68, 68, 68);
+}
+
+* a:hover {
+  color: rgb(101, 101, 101);
+}
+
+.white {
+  background-color: white;
+  border: 1px solid rgb(209, 209, 209)
+}
+
+h1,
+h2 {
+  margin: 40px 0;
+}
+
+h3 {
+  margin: 20px 0;
+}
+
+.noDecoration {
+  text-decoration: none;
+}
+
+.spacer {
+  width: 100%;
+  height: 80px;
+}
+
+.homespacer {
+  width: 100%;
+  height: 430px;
+}
+
+.carousel {
+  height: 520px;
+  overflow: hidden;
+  color: #000000;
+}
+
+.carousel img {
+  height: 520px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.rounded * {
+  border-radius: 20px;
+}
+
+.footer {
+  background-color: #f8f0e6;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 40;
+  width: 100%;
+  background-color: #f8f0e6;
+  height: 70px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.108);
+  border-radius: 0 0 20px 20px;
+}
+
+.burger {
+  cursor: pointer;
+  color: #636262;
+  width: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.ribbon {
+  font-family: 'ribbon';
+  font-size: x-large;
+  font-weight: 400;
+}
+
+.site-container {
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.card-img-top {
+  height: 250px;
+  border-radius: 10px;
+}
+
+.cardContent {
+  margin: 0;
+}
+
+.homeCard {
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.homeCard:hover {
+  box-shadow: 0 0 5px 5px rgb(221, 221, 221);
+}
+
+.homeCard:hover img {
+  scale: 1.005;
+  transition: all 0.1s;
+}
+
+.productImg {
+  max-height: 530px;
+}
+
+.productInfo img {
+  height: 170px;
+}
+
+.productLand {
+  padding: 30px;
+  background-color: white;
+}
+
+.productLand * {
+  border-radius: 15px;
+}
+
+.productLand h1 {
+  margin: 10px 0;
+}
+
+.btn-primary,
+.btn-outline-primary {
+  background-color: #f7c68b;
+  color: #000000;
+  z-index: 20;
+  border: none;
+}
+
+.btn-primary:hover,
+.btn-outline-hover {
+  background-color: #555;
+  color: white;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.rating span {
+  color: #ffc000;
+}
+
+.navbar-brand {
+  overflow: hidden;
+  height: 60px;
+  width: 180px;
+  margin: 0 55px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.product {
+  border: 1px #404040 solid;
+  margin: 1rem;
+}
+
+.product-info {
+  padding: 1rem;
+}
+
+.img-large {
+  max-width: 100%;
+}
+
+.img-thumbnail {
+  height: 80px;
+}
+
+.small-container {
+  max-width: 600px;
+  background-color: #fffbf7;
+  padding: 0 58px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 550px;
+  width: 50%;
+}
+
+.bg-signin {
+  background-image: url(../public/images/p2.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  padding: 20px;
+}
+
+.checkout-steps>div {
+  padding: 10px 20px;
+  text-align: center;
+  border-bottom: 0.2rem solid #a0a0a0;
+  color: #a0a0a0;
+}
+
+.checkout-steps>div.active {
+  border-bottom: 0.2rem solid #ffc000;
+  color: #2d3029;
+}
+
+.d-flex,
+.d-md-flex {
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* sidebar */
+
+.side-navbar {
+  width: 230px;
+  height: 100%;
+  position: fixed;
+  margin-right: 50px;
+  left: -300px;
+  background-color: #e7bfd2;
+  border-radius: 0 20px 20px 0;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.145);
+  color: #333;
+  z-index: 20;
+  transition: 0.5s;
+}
+
+.side-navbar {
+  cursor: pointer;
+}
+
+.menu-item{
+  background-color: white;
+  padding: 3px 15px;
+  margin: 7px 5px;
+  border-radius: 10px;
+}
+
+.menu-item-container{
+  background-color: #e6d7de;
+  padding: 1px;
+  border-radius: 12px;
+}
+
+.menu-item:hover{
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.082);
+}
+
+.site-container {
+  transition: 0.4s;
+}
+
+.active-cont {
+  margin-left: 260px;
+}
+
+.active-nav {
+  left: 0;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.carousel h3{
+  background-color: #00000038;
+  border-radius: 10px;
+  padding: 5px 10px;
+  display: inline-block;
+}
+.carousel h3{
+  transform: translateY(10px);
+}
+/* Map */
+
+.full-box * {
+  border-radius: 0;
+}
+
+.full-box {
+  height: 100vh;
+  max-width: initial;
+}
+
+.full-box header,
+.full-box footer {
+  display: none;
+}
+
+.full-box .container {
+  height: 100vh;
+  max-width: initial;
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  color: rgb(20, 20, 20);
+  background: rgb(127, 231, 255);
+}
+
+.full-box .mt-3 {
+  margin-top: 0 !important;
+}
+
+button.thumbnail {
+  padding: 0;
+}
+
+.tab-nav{
+  z-index: 10000;
+  height: 10px;
+  position: fixed;
+  display: none;
+}
+@media (max-width: 1000px) {
+  .productLand {
+    padding: 10px 0px;
+    background-color: white;
+  }
+
+  .productLand h1 {
+    margin: 10px 0;
+  }
+
+  .productImg {
+    max-height: 350px;
+    margin: 5px 0;
+    margin-top: 15px;
+  }
+
+  .navbar{
+    justify-content: space-between;
+  }
+
+  .navbar-brand{
+    display: none;
+  }
+
+  .tab-nav{
+    height: 40px;
+    width: 200px;
+    position: fixed;
+    display: block;
+    left: 50%;
+    top: 15px;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+
+  .nav-expanded {
+    background-color: rgb(255, 255, 255);
+    width: 78vw;
+    margin: 0 auto;
+    left: 11vw;
+    padding: 20px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.058);
+    top: 100px;
+    position: absolute;
+  }
+
+  .small-container {
+    padding: 32px;
+    width: 100%;
+    height: auto;
+  }
+
+  .bg-signin {
+    align-items: flex-start;
+    width: 100%;
+    padding: 5px;
+    height: 535px;
+  }
+  .carousel, .carousel img {
+    height: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav-expanded {
+    width: 88vw;
+    left: 6vw;
+  }
+  .tab-nav{
+    height: 40px;
+    width: 150px;
+  }
+  .navbar{
+    background-color: #fffbf7;
+  }
+}
+
+@media (max-width: 300px) {
+  .tab-nav{
+    height: 30px;
+    width: 120px;
+  }
+}
