@@ -79,10 +79,10 @@ function App() {
         }
       >
         <ToastContainer position="bottom-center" limit={1} />
-        <header>             
+        <header>
         <LinkContainer to="/">
-          <img src={Logo} alt="ter" className='tab-nav'/> 
-        </LinkContainer>  
+          <img src={Logo} alt="ter" className='tab-nav' style={{objectFit: 'contain'}}/>
+        </LinkContainer>
           <Navbar expand="lg" className='navbar px-3'>
             <Container>
               <span className='burger nav-link'
@@ -90,10 +90,10 @@ function App() {
               >
                 Menu
               </span>
-              <LinkContainer to="/" className="navbar-brand">
-                  <img src={Logo} alt="ter"/>                
+              <LinkContainer to="/" className="navbar-brand" style={{objectFit: 'contain'}}>
+                  <img src={Logo} alt="ter"/>
               </LinkContainer>
-              
+
               <Navbar.Toggle aria-controls="basic-navbar-nav" id='burger' />
               <Navbar.Collapse id="basic-navbar-nav" className='nav-expanded'>
                 <SearchBox/>
@@ -173,10 +173,10 @@ function App() {
                 </Nav.Item>
               ))}
               <Nav.Item className="menu-item">
-                    
-                  
+
+
                     <h6 className="my-2" onClick={() => setSidebarIsOpen(false)}>Close</h6>
-                 
+
                 </Nav.Item>
             </div>
             </div>
